@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images-20220613T154544Z-001/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+.btn1{
+    background-color: hsl(248, 32%,49%);
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+.btn2{
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+.policy{
+    color: red;
+}
+#write-up{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    margin: 30px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+.form-wrap{
+        background: #fff;
+        padding: 25px 25px;
+        color: #333;
+        margin-top: 15px; 
+        display: flex;
+        flex-direction: column;
+        width: 100em;
+        border-radius: 10px;
+      }
+.form-group input{
+         width: 100%;
+         padding: 10px; 
+         border: 1px solid #ddd;
+         border-radius: 6px; 
+      }
+.footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
